@@ -15,8 +15,10 @@ module.exports = {
     "!**/node_modules/**",
     "!**/amplication_modules/**",
     "!**/prisma/generated-prisma-client/**",
+    "!**/migration-scripts/**",
     "!**/scripts/**",
     "!**/jest.config.ts",
+    "!**/jest.**.config.ts",
     "!**/index.ts",
     "!**/*.mock.ts",
     "!**/*.module.ts",
@@ -24,6 +26,7 @@ module.exports = {
     "!**/*.enum.ts",
     "!**/*.constants.ts",
     "!**/(*.|^)types.ts",
+    "!**/dto/**",
   ],
   coverageThreshold: {
     global: {
